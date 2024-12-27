@@ -1,0 +1,21 @@
+<!-- src/app/vertical-layout/vertical-layout.component.html -->
+<div class="vertical-layout">
+    <header class="header">
+      <h1>My Application Header</h1>
+    </header>
+  
+    <div class="sidebar">
+      <ul>
+        <li class="active">Dashboard</li>
+      <li><a routerLink="/film">Film</a></li>
+      <li><a routerLink="/actor">Actor</a></li>
+      <li><a routerLink="/rental">Rental</a></li>
+      <li><a routerLink="/customer">Customer</a></li>
+      </ul>
+    </div>
+  
+    <main class="content">
+      <router-outlet></router-outlet> <!-- Content will be loaded here -->
+    </main>
+  </div>
+  
